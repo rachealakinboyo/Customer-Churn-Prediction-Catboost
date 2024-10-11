@@ -1,9 +1,10 @@
-numpy
 pandas
+numpy
 matplotlib
 seaborn
 scikit-learn
-catboost==0.26
 imbalanced-learn
 joblib
 streamlit
+--find-links https://catboost.ai/releases
+catboost==0.26
