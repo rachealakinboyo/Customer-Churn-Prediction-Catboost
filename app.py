@@ -2,11 +2,12 @@
 import streamlit as st
 import joblib
 import numpy as np
-import catboost
-print("CatBoost is imported successfully.")
+
 
 # Load the model
-model = joblib.load('customer_churn_prediction_model.pkl')
+from catboost import CatBoostClassifier
+model = CatBoostClassifier()
+model.load_model("customer_churn_prediction_model.cbm")
 
 # Define the prediction function
 def predict_churn(features):
