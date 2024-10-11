@@ -4,6 +4,7 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+--find-links https://catboost.ai/releases
 catboost
 imbalanced-learn
 joblib
