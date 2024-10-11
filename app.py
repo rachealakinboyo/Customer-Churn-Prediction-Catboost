@@ -1,9 +1,10 @@
 import streamlit as st
-import joblib
 import pandas as pd
+from catboost import CatBoostClassifier
 
-# Load the CatBoost model
-model = joblib.load('customer_churn_prediction_model.cbm')
+# Load the CatBoost model using CatBoost's native method
+model = CatBoostClassifier()
+model.load_model('customer_churn_prediction_model.cbm')  # Load the model
 
 # Define the feature names and accept input from the user
 st.title("Customer Churn Prediction")
@@ -24,7 +25,6 @@ input_data = {
     'contract': contract,
     'paperless_billing': paperless_billing,
     'payment_method': payment_method,
-    # Add more features as necessary
 }
 
 # Convert the input dictionary to a DataFrame
