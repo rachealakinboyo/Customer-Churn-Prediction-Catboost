@@ -5,7 +5,7 @@ matplotlib
 seaborn
 scikit-learn
 --find-links https://catboost.ai/releases
-catboost
+catboost==0.26
 imbalanced-learn
 joblib
 streamlit
