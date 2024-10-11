@@ -1,9 +1,8 @@
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-joblib
-streamlit
-catboost
+numpy==1.21.6  # Ensure compatibility with CatBoost
+pandas==2.2.3
+matplotlib==3.9.2
+seaborn==0.13.2
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
+catboost==1.0.3  # Stable version of CatBoost compatible with older numpy
+streamlit==1.39.0
