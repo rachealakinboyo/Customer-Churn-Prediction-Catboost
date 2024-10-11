@@ -6,5 +6,4 @@ scikit-learn
 imbalanced-learn
 joblib
 streamlit
---find-links https://catboost.ai/releases
-catboost==0.26
+catboost
