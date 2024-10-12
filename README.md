@@ -120,7 +120,7 @@ The model's performance is evaluated using the following metrics:
 - **AUC-ROC**: 0.85
 
 ### Why Recall is Low:
-The recall is lower due to the business goal, which prioritizes capturing as many potential churners as possible (high recall). A slightly lower precision is acceptable because it's more important to identify churners even at the cost of false positives. By capturing potential churners, the business can focus on retention strategies for those customers who are likely to leave, helping to mitigate potential revenue losses.
+The precision is lower due to the business goal, which prioritizes capturing as many potential churners as possible (high recall). A slightly lower precision is acceptable because it's more important to identify churners even at the cost of false positives. By capturing potential churners, the business can focus on retention strategies for those customers who are likely to leave, helping to mitigate potential revenue losses.
 
 ## Model Deployment
 
